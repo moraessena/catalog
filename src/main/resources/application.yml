@@ -1,0 +1,8 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /api
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/catalog?readPreference=primary&appname=catalog_app&directConnection=true&ssl=false
